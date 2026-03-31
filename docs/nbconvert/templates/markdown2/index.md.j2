@@ -1,0 +1,7 @@
+{% extends 'markdown/index.md.j2' %}
+
+{% block any_cell %}
+{%- if "remove" not in cell.metadata.get('tags', {}) -%}
+{{ super() }}
+{%- endif -%}
+{% endblock any_cell %}

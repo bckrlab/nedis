@@ -1,0 +1,32 @@
+# Python / build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Conda / virtual envs
+.conda/
+envs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Output and data (large; mount at runtime if needed)
+_out/
+data/
+
+# Version control
+.git/
+.gitignore
+
+# Docs build
+docs/_build/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

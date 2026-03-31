@@ -1,3 +1,15 @@
+/data
+/_out
+/_out*
+/notebooks/geo
+/build
+wandb
+lightning_logs
+checkpoints
+_runs
+RUN___*
+
+
 # Temporary and binary files
 *~
 *.py[cod]

@@ -1,0 +1,30 @@
+name: nedis
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - wget==1.21.4
+  - git==2.52.0
+  - pip==25.2
+  - python==3.9.10
+  - jupyterlab
+  - tqdm==4.67.1
+  - ipykernel==6.7.0
+  - numpy==1.22.1
+  - scipy==1.7.3
+  - scikit-learn==1.0.2
+  - pandas==1.4.0
+  - seaborn==0.11.2
+  - matplotlib==3.5.1
+  - networkx==2.6.3
+  - python-igraph==0.9.8
+  - leidenalg==0.8.8
+  - papermill==2.6.0
+  - rpy2==3.6.2
+  - r-base==4.4.3
+  - bioconductor-gsreg==1.40.0
+  - bioconductor-gsbenchmark==1.26.0
+  - bioconductor-masigpro==1.78.0
+  - pip:
+    - gseapy==1.1.10
+    - matplotlib-venn==1.1.2
